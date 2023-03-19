@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]([https://your-solution-url.com](https://github.com/MahendraDani/Challenge-NFT-Preview-Card/tree/main))
+- Solution URL: [Solution](https://github.com/MahendraDani/Challenge-NFT-Preview-Card/tree/main)
 
 ## My process
 
