@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+}
+
+:root{
+  --soft-blue : hsl(215, 51%, 70%);
+  --cyan : hsl(178, 100%, 50%);
+  --very-dark-blue-mainBG :hsl(217, 54%, 11%);
+  --very-dark-blue-cardBG : hsl(216, 50%, 16%);
+  --very-dark-blue-line : hsl(215, 32%, 27%);
+  --white : hsl(0, 0%, 100%);
+  --font-size-paragraph : 18px;
+}
+.border{
+  border: 1px solid wheat;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: var(--very-dark-blue-mainBG);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  /* border: 2px solid white; */
+  width: 370px;
+  height: fit-content;
+  padding: 25px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background-color: var(--very-dark-blue-cardBG);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.img-link img{
+  height: 300px;
+  width: 330px;
+  border-radius: 10px;
+  display: block;
+}
+
+.upper-section{
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.lower-section{
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.title{
+  text-decoration: none;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.title:hover{
+  color:var(--cyan)
+}
+.description{
+  padding: 20px 0 ;
+  font-size: 18px;
+  font-weight: 300;
+  word-spacing: 1.2px;
+  color: var(--soft-blue);
+}
+.timeline{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:15px 0;
+  border-bottom: 1px solid var(--very-dark-blue-line);
+}
+.left{
+  display: flex;
+  column-gap: 10px;
+}
+.left p{
+  color: var(--cyan);
+  font-size: var(--font-size-paragraph);
+}
+.right{
+  display: flex;
+  column-gap: 10px;
+  
+}
+.right p{
+  color: var(--soft-blue);
+}
+.card-footer{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  column-gap: 20px;
+}
+.footer-img{
+  border: 3px solid white;
+  border-radius: 100%;
+  width: 38px;
+}
+.card-footer div{
+  color: var(--soft-blue);
+  /* font-weight: 300; */
+  font-size: 18px;
+}
+.card-footer a{
+  text-decoration: none;
+  color: white;
+}
+.card-footer a:hover{
+  color: var(--cyan);
+}
